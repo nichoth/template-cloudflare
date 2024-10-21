@@ -11,7 +11,11 @@ See [template-ts-preact-htm](https://github.com/nichoth/template-ts-preact-htm) 
 1. Use the template button in github. Or clone this then `rm -rf .git && git init`. 
 2. Then `npm i && npm init`.
 3. Edit the source code in `src/`.
-4. Write docs -- `mv README.example.md README.md` + edit the readme file
+4. Setup the environment variables:
+```sh
+mv .dev.vars.example dev.vars
+```
+5. Write docs -- `mv README.example.md README.md` + edit the readme file
 
 ## featuring
 
