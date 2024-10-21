@@ -1,17 +1,17 @@
-# template netlify app ![tests](https://github.com/nichoth/template-netlify-app/actions/workflows/nodejs.yml/badge.svg)
+# template cloudflare ![tests](https://github.com/nichoth/template-cloudflare/actions/workflows/nodejs.yml/badge.svg)
 
-A template for applications using [preact](https://preactjs.com/), [htm](https://github.com/developit/htm/tree/master), [typescript](https://www.typescriptlang.org/), and [netlify](https://www.netlify.com/) as host. Use [tape-run](https://github.com/juliangruber/tape-run) for tests in a browser environment.
+A template for applications using [preact](https://preactjs.com/), [htm](https://github.com/developit/htm/tree/master), [typescript](https://www.typescriptlang.org/), and [cloudflare](https://www.cloudflare.com/) as host. Use [tape-run](https://github.com/juliangruber/tape-run) for tests in a browser environment.
 
-See [template-ts-preact-htm-app](https://github.com/nichoth/template-ts-preact-htm-app) for the same thing, but not using netlify.
+See [template-ts-preact-htm-app](https://github.com/nichoth/template-ts-preact-htm-app) for the same thing, but not using cloudflare.
 
-See [template-ts-preact-htm](https://github.com/nichoth/template-ts-preact-htm) for something similar but for dependency modules.
+See [template-ts-preact-htm](https://github.com/nichoth/template-ts-preact-htm) for something similar, but for dependency modules.
 
 ## use
 
 1. Use the template button in github. Or clone this then `rm -rf .git && git init`. 
 2. Then `npm i && npm init`.
 3. Edit the source code in `src/`.
-4. Add the project to [netlify](https://www.netlify.com/), and add a link to the netlify site in the README file.
+4. Write docs -- `mv README.example.md README.md` + edit the readme file
 
 ## featuring
 

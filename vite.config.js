@@ -36,9 +36,8 @@ export default defineConfig({
         open: true,
         proxy: {
             '/api': {
-                target: 'http://localhost:9999/.netlify/functions',
+                target: 'http://localhost:9999',
                 changeOrigin: true,
-                rewrite: path => path.replace(/^\/api/, ''),
             },
         },
     },

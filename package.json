@@ -9,7 +9,7 @@
     "test": "npm run lint && npm run build && npm run build-tests && npm run test-tape-run",
     "test-tape-run": "cat test/index.html | tape-run --input=html --static=test | tap-spec",
     "build": "mkdir -p ./public && rm -rf ./public/* && vite build",
-    "start": "concurrently --kill-others \"npx ntl functions:serve --port=9999 --debug\" \"npx vite\"",
+    "start": "cp -r ./_public/* ./public && concurrently --kill-others \"npx wrangler pages dev public\" \"npx vite\"",
     "preversion": "npm run lint",
     "version": "auto-changelog --template keepachangelog --breaking-pattern 'BREAKING CHANGE' && git add CHANGELOG.md",
     "postversion": "git push --follow-tags",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@bicycle-codes/debug": "^0.6.16",
     "@bicycle-codes/tapzero": "^0.10.3",
-    "@netlify/functions": "^2.8.2",
+    "@cloudflare/workers-types": "^4.20241018.0",
     "@preact/preset-vite": "^2.9.1",
     "@typescript-eslint/eslint-plugin": "^8.8.1",
     "@typescript-eslint/parser": "^8.8.1",
@@ -38,13 +38,13 @@
     "esbuild": "^0.24.0",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
-    "netlify-cli": "^17.36.4",
     "postcss-nesting": "^13.0.0",
     "stylelint-config-standard": "^36.0.1",
     "tap-spec": "^5.0.0",
     "tape-run": "^11.0.0",
     "typescript": "^5.6.3",
-    "vite": "^5.4.8"
+    "vite": "^5.4.8",
+    "wrangler": "^3.81.0"
   },
   "author": "nichoth <nichoth@nichoth.com> (https://nichoth.com)"
 }

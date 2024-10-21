@@ -21,7 +21,7 @@ if (import.meta.env.DEV || import.meta.env.MODE === 'staging') {
 }
 
 // example of calling our API
-const json = await ky.get('/api/example').json()
+const json = await ky.get('/api/helloworld').json()
 
 export const Example:FunctionComponent = function Example () {
     debug('rendering example...')
