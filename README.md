@@ -17,14 +17,14 @@ See [template-ts-preact-htm](https://github.com/nichoth/template-ts-preact-htm) 
 
 * `preversion` npm hook -- lint.
 * `postversion` npm hook -- `git push && git push --tags`
-* eslint via [standardx](https://www.npmjs.com/package/standardx) -- `npm run lint`
-* test in a browser environment via `tape-run` -- see `npm test`. Includes `tap` testing tools -- [tapzero](https://github.com/nichoth/tapzero) and [tap-arc](https://www.npmjs.com/package/tap-arc)
+* eslint via [eslint-config-standard](https://github.com/standard/eslint-config-standard) -- `npm run lint`
+* test in a browser environment via `tape-run` -- see `npm test`. Includes `tap` testing tools -- [tapzero](https://github.com/bicycle-codes/tapzero) and [tap-spec](https://www.npmjs.com/package/tap-spec)
 * CI via github actions
-* routing via [route-event](https://github.com/nichoth/route-event) and [@nichoth/routes](https://github.com/nichoth/routes)
+* routing via [route-event](https://github.com/nichoth/route-event) and [@bicycle-codes/routes](https://github.com/bicycle-codes/routes)
 
 ## develop
 
-Start a localhost server, and serve the netlify serverless functions locally. Note the lambda functions are accessible at the path `/api/` from the frontend code.
+Start a localhost server, and serve the cloudinary serverless functions locally. Note the lambda functions are accessible at the path `/api/*`.
 
 ```sh
 npm start
