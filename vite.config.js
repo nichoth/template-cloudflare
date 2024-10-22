@@ -43,7 +43,7 @@ export default defineConfig({
     },
     build: {
         target: 'esnext',
-        minify: false,
+        minify: 'terser',
         outDir: './public',
         emptyOutDir: true,
         sourcemap: 'inline'

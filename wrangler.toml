@@ -1,7 +1,7 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "earthworm"
-main = "src/index.ts"
-compatibility_date = "2024-10-18"
+name = "my-project"
+compatibility_date = "2024-10-22"
+pages_build_output_dir = "public"
 
 [dev]
 port = 9999
@@ -25,8 +25,9 @@ enabled = true
 # - https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 # Note: Use secrets to store sensitive data.
 # - https://developers.cloudflare.com/workers/configuration/secrets/
-# [vars]
-# MY_VARIABLE = "production_value"
+#
+[vars]
+NODE_ENV = "staging"
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#workers-ai
