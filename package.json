@@ -45,7 +45,7 @@
     "terser": "^5.36.0",
     "typescript": "^5.7.2",
     "vite": "^5.4.11",
-    "wrangler": "^3.89.0"
+    "wrangler": "^3.90.0"
   },
   "author": "nichoth <nichoth@nichoth.com> (https://nichoth.com)"
 }
