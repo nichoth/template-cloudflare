@@ -26,8 +26,8 @@
     "stylelint": "^16.9.0"
   },
   "devDependencies": {
-    "@substrate-system/debug": "^0.6.16",
-    "@bicycle-codes/tapzero": "^0.10.3",
+    "@substrate-system/debug": "^0.7.2",
+    "@substrate-system/tapzero": "^0.10.5",
     "@cloudflare/workers-types": "^4.20241112.0",
     "@preact/preset-vite": "^2.9.1",
     "@typescript-eslint/eslint-plugin": "^8.15.0",
