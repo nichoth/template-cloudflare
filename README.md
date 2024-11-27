@@ -22,9 +22,9 @@ mv .dev.vars.example dev.vars
 * `preversion` npm hook -- lint.
 * `postversion` npm hook -- `git push && git push --tags`
 * eslint via [eslint-config-standard](https://github.com/standard/eslint-config-standard) -- `npm run lint`
-* test in a browser environment via `tape-run` -- see `npm test`. Includes `tap` testing tools -- [tapzero](https://github.com/bicycle-codes/tapzero) and [tap-spec](https://www.npmjs.com/package/tap-spec)
+* test in a browser environment via `tape-run` -- see `npm test`. Includes `tap` testing tools -- [tapzero](https://github.com/substrate-system/tapzero) and [tap-spec](https://www.npmjs.com/package/tap-spec)
 * CI via github actions
-* routing via [route-event](https://github.com/nichoth/route-event) and [@bicycle-codes/routes](https://github.com/bicycle-codes/routes)
+* routing via [route-event](https://github.com/nichoth/route-event) and [@substrate-system/routes](https://github.com/substrate-system/routes)
 
 ## develop
 

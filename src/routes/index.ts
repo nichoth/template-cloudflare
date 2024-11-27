@@ -1,5 +1,5 @@
 import { html } from 'htm/preact'
-import Router from '@bicycle-codes/routes'
+import Router from '@substrate-system/routes'
 import { HomeRoute } from './home.js'
 
 export default function _Router ():ReturnType<Router> {
