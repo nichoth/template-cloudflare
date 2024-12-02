@@ -36,7 +36,7 @@
     "concurrently": "^9.1.0",
     "cssnano": "^7.0.4",
     "esbuild": "^0.24.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.16.0",
     "eslint-config-standard": "^17.1.0",
     "postcss-nesting": "^13.0.1",
     "stylelint-config-standard": "^36.0.1",
