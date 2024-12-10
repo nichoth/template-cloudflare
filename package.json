@@ -44,7 +44,7 @@
     "tape-run": "^11.0.0",
     "terser": "^5.37.0",
     "typescript": "^5.7.2",
-    "vite": "^6.0.2",
+    "vite": "^6.0.3",
     "wrangler": "^3.94.0"
   },
   "author": "nichoth <nichoth@nichoth.com> (https://nichoth.com)"
