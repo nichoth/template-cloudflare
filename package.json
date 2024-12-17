@@ -23,7 +23,7 @@
     "ky": "^1.7.2",
     "preact": "^10.25.2",
     "route-event": "^6.0.0",
-    "stylelint": "^16.11.0"
+    "stylelint": "^16.12.0"
   },
   "devDependencies": {
     "@substrate-system/debug": "^0.7.12",
