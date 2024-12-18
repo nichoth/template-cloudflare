@@ -18,7 +18,7 @@
   "dependencies": {
     "@substrate-system/routes": "^4.0.7",
     "@nichoth/components": "^0.16.12",
-    "@preact/signals": "^1.3.1",
+    "@preact/signals": "^2.0.0",
     "htm": "^3.1.1",
     "ky": "^1.7.2",
     "preact": "^10.25.2",
