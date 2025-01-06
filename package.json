@@ -30,7 +30,7 @@
     "@substrate-system/tapzero": "^0.10.13",
     "@cloudflare/workers-types": "^4.20241230.0",
     "@preact/preset-vite": "^2.9.3",
-    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/eslint-plugin": "^8.19.0",
     "@typescript-eslint/parser": "^8.19.0",
     "auto-changelog": "^2.4.0",
     "concurrently": "^9.1.2",
