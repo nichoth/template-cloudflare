@@ -13,7 +13,7 @@ See [template-ts-preact-htm](https://github.com/nichoth/template-ts-preact-htm) 
 3. Edit the source code in `src/`.
 4. Setup the environment variables:
 ```sh
-mv .dev.vars.example dev.vars
+mv .dev.vars.example .dev.vars
 ```
 5. Write docs -- `mv README.example.md README.md` + edit the readme file
 
