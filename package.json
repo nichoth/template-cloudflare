@@ -39,7 +39,7 @@
     "eslint": "^8.57.1",
     "eslint-config-standard": "^17.1.0",
     "postcss-nesting": "^13.0.1",
-    "stylelint-config-standard": "^38.0.0",
+    "stylelint-config-standard": "^39.0.1",
     "tap-spec": "^5.0.0",
     "tape-run": "^11.0.0",
     "terser": "^5.37.0",
