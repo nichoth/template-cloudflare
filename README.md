@@ -34,6 +34,12 @@ Start a localhost server, and serve the cloudinary serverless functions locally.
 npm start
 ```
 
+## Cloudflare
+
+Use the Cloudflare GUI to import your repo.
+
+Deploy from the CLI with `nps wrangler pages deploy`.
+
 ## architecture
 
 See [this article](https://gomakethings.com/easier-state-management-with-preact-signals/) for more details about application architecture.
