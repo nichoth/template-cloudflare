@@ -4,7 +4,8 @@ import {
     Primary as ButtonOutlinePrimary,
     ButtonOutline
 } from '@nichoth/components/htm/button-outline'
-import { createDebug } from '@substrate-system/debug'
+import Debug from '@substrate-system/debug'
+import { useComputed } from '@preact/signals'
 import ky from 'ky'
 import { State } from './state.js'
 import Router from './routes/index.js'
@@ -13,7 +14,7 @@ import './style.css'
 
 const router = Router()
 const state = State()
-const debug = createDebug()
+const debug = Debug('example')
 
 if (import.meta.env.DEV || import.meta.env.MODE === 'staging') {
     // @ts-expect-error DEV env
@@ -25,10 +26,13 @@ const json = await ky.get('/api/helloworld').json()
 
 export const Example:FunctionComponent = function Example () {
     debug('rendering example...')
-    const match = router.match(state.route.value)
-    const ChildNode = match.action(match, state.route)
+    // const match = router.match(state.route.value)
+    const match = useComputed(() => {
+        return router.match(state.route.value)
+    })
+    const ChildNode = match.value.action(match, state.route)
 
-    if (!match) {
+    if (!match.value) {
         return html`<div class="404">
             <h1>404</h1>
         </div>`
