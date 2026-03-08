@@ -1,1 +1,6 @@
 NODE_ENV="development"
+
+# Set in Cloudflare dashboard for the staging branch to enable basic auth.
+# BASIC_AUTH_USER defaults to "staging" if omitted.
+# BASIC_AUTH_USER="staging"
+# BASIC_AUTH_PASSWORD="changeme"
