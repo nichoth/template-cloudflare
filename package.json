@@ -25,7 +25,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250109.0",
     "@preact/preset-vite": "^2.9.4",
-    "@substrate-system/debug": "^0.9.60",
+    "@substrate-system/debug": "^0.9.62",
     "@substrate-system/tapout": "^0.0.37",
     "@substrate-system/tapzero": "^0.10.16",
     "@typescript-eslint/eslint-plugin": "^8.57.0",
